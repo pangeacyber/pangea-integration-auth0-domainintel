@@ -1,4 +1,4 @@
-exports.onExecutePostLogin = async (event, api) => {
+exports.onExecutePreUserRegistration = async (event, api) => {
 	  const Pangea = require('node-pangea');
 	  const domain = "aws.us.pangea.cloud";
 	  const token = event.secrets.TOKEN;
