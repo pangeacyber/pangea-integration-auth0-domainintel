@@ -1,5 +1,5 @@
 {
-  "name": "action-integration-test",
+  "name": "action-pre-user-registration-integration-test",
   "runtime": "node16",
   "supported_triggers": [
     {
